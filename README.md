@@ -2,6 +2,10 @@
 the "Bledner Addon Apply Dynamic Hair" is the source code.
 The "apply_dynaics_hair_1.0.1.zip" is teh addon
 
+Tis addon can be found in the Hair Dynamics panel unde Paricle Hair.
+
+It has a buttonm with a cusrom icon
+
 How to use:
 
 1. install the addon
