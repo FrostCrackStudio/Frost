@@ -265,9 +265,11 @@ def register():
     bpy.utils.register_class(SNA_OT_Apply_Hair_D)
     bpy.types.PARTICLE_PT_hair_dynamics.prepend(sn_prepend_panel_CE1F2)
 
-###   UNREGISTER ADDON
+##   UNREGISTER ADDON
 def unregister():
     sn_unregister_icons()
     sn_unregister_properties()
     bpy.types.PARTICLE_PT_hair_dynamics.remove(sn_prepend_panel_CE1F2)
     bpy.utils.unregister_class(SNA_OT_Apply_Hair_D)
+    
+    
